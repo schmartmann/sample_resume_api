@@ -21,10 +21,11 @@ ActiveRecord::Schema.define(version: 20161127223058) do
     t.string   "user_email"
     t.string   "job_objective"
     t.string   "user_skills"
-    t.string   "employment_history"
+    t.string   "employment_history_1"
+    t.string   "employment_history_2"
     t.string   "education"
-    t.datetime "created_at",         null: false
-    t.datetime "updated_at",         null: false
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
   end
 
 end
